@@ -77,7 +77,6 @@ const getData = async (address, slh) => {
   let testAjax = await page.$("#testAjax");
   await colval.type(slh);
   await input1.type(checkCode);
-  await page.screenshot({path: 'example.png'});
   await testAjax.click();
   let res = await page.waitForResponse(res => /sq\.cfda\.gov\.cn\/datasearch\/schedule\/search\.jsp/.test(res.url()));
   let content = await res.text();
