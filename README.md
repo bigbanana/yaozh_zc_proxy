@@ -12,7 +12,7 @@ node index.js
     * 请求
     * proxy 使用代理, 参数需要urlEncode。格式 protocol://ip:prot ("http", "socks", "socks4", "socks5". http代理：http://192.168.1.1:8000，socks5代理: socks5://192.168.1.1:8000, shadowsocks类socks5也同样受支持)
     * slh 受理号
-    * 请求示例 curl http://127.0.0.1:3000?proxy=slh=JYSB1800139
+    * 请求示例 curl http://127.0.0.1:3000?slh=JYSB1800139
     * 添加代理 curl http://127.0.0.1:3000/?proxy=http%3A%2F%2F192.168.1.1%3A8000&slh=CXHB1800036
 
     * 返回
